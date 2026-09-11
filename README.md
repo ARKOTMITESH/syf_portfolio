@@ -8,7 +8,8 @@
 
 Designed to reflect the elegance of a high-end architectural and interior design studio. Grounded in Saif Ali Khan's core discipline: **Civil Engineering + Interior Design + Site Execution**.
 
-- **Website Live Demo**: [Saif Ali Khan Interiors](https://saifalikhan-interiors.com/)
+- **Live Website**: [https://arkotmitesh.github.io/syf_portfolio/](https://arkotmitesh.github.io/syf_portfolio/)
+- **Live Subdomain (HTTPS)**: [https://e23ad182fd98e5.lhr.life/](https://e23ad182fd98e5.lhr.life/)
 - **Studio Location**: # 301, 2nd Floor Swathi Complex, Near Gandhi Bomma Center, Nellore - 524001, Andhra Pradesh
 - **Contact**: +91 77991 18561 | saif.khan16396@gmail.com
 
@@ -58,7 +59,7 @@ Designed to reflect the elegance of a high-end architectural and interior design
 
 ```bash
 # Clone the repository
-git clone https://github.com/saifkhan16396-cell/syf_portfolio.git
+git clone https://github.com/ARKOTMITESH/syf_portfolio.git
 
 # Navigate to project directory
 cd syf_portfolio
