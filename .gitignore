@@ -28,3 +28,4 @@ rendered_pages/
 extracted_assets/
 *.png.tmp
 page_*_300dpi.png
+cloudflared.exe
