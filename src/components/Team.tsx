@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserCheck, Palette, HardHat } from 'lucide-react';
+import { UserCheck, Palette } from 'lucide-react';
 import { PORTFOLIO_DATA } from '../data/portfolioData';
 
 export const Team: React.FC = () => {
@@ -7,8 +7,7 @@ export const Team: React.FC = () => {
 
   const roleIcons: Record<string, React.ReactNode> = {
     'SAIF ALI KHAN': <UserCheck className="w-5 h-5 text-studio-gold" />,
-    'ARSHI': <Palette className="w-5 h-5 text-studio-gold" />,
-    'CHANU': <HardHat className="w-5 h-5 text-studio-gold" />
+    'ARSHI': <Palette className="w-5 h-5 text-studio-gold" />
   };
 
   return (
@@ -29,7 +28,7 @@ export const Team: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
           {team.map((member) => (
             <div
               key={member.name}

@@ -489,12 +489,6 @@ export const PORTFOLIO_DATA = {
       role: "Interior Designer",
       image: "/images/team/arshi-team.jpg",
       bio: "Specializing in spatial aesthetics, material mood boards, color harmony, and custom soft furnishings curation."
-    },
-    {
-      name: "CHANU",
-      role: "Site Engineer & Management",
-      image: "/images/team/chanu-team.jpg",
-      bio: "Managing on-site construction timelines, civil coordination, contractor logistics, and precision installation standards."
     }
   ],
 

@@ -43,7 +43,7 @@ Designed to reflect the elegance of a high-end architectural and interior design
    - *06 Island Kitchen & Butterfly Suite*
 7. **Interactive Project Modal & Lightbox**: Multi-angle renders, full material specs (BWP marine plywood, PU arched shutters, Italian marble, Statuario panels, black Marquina backsplash), and keyboard-navigable lightbox.
 8. **From Design to Site (Execution)**: 5-stage lifecycle paired with real on-site documentation photographs.
-9. **Our Studio Team**: Profiles for Saif Ali Khan, Arshi, and Chanu.
+9. **Our Studio Team**: Profiles for Saif Ali Khan and Arshi.
 10. **Client Testimonials**: Authentic handover reviews and completion photographs.
 11. **Contact & Enquiry Console**: Interactive form with validation, direct WhatsApp/call/email actions, and an Admin Enquiry Desk with status workflow (`NEW`, `CONTACTED`, `IN PROGRESS`, `COMPLETED`, `CLOSED`).
 
