@@ -58,7 +58,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
           : 'bg-gradient-to-b from-black/80 via-black/40 to-transparent py-5'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
         {/* Brand Logo */}
         <a href="#home" className="group flex items-center gap-3">
           <div className="w-10 h-10 border border-studio-gold/60 rounded flex items-center justify-center bg-black/40 group-hover:border-studio-gold transition-colors">
@@ -75,12 +75,12 @@ export const Navbar: React.FC<NavbarProps> = () => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-7" aria-label="Main Navigation">
+        <nav className="hidden lg:flex items-center gap-4 xl:gap-6 2xl:gap-7" aria-label="Main Navigation">
           {navLinks.map((link) => (
             <a
               key={link.id}
               href={link.href}
-              className={`text-xs font-sans tracking-[0.16em] uppercase transition-all duration-200 relative py-1 ${
+              className={`text-[11px] xl:text-xs font-sans tracking-[0.12em] xl:tracking-[0.16em] uppercase transition-all duration-200 relative py-1 whitespace-nowrap ${
                 activeSection === link.id
                   ? 'text-studio-gold font-semibold'
                   : 'text-stone-300 hover:text-white'
@@ -95,10 +95,10 @@ export const Navbar: React.FC<NavbarProps> = () => {
         </nav>
 
         {/* Action Button */}
-        <div className="hidden sm:flex items-center">
+        <div className="hidden sm:flex items-center flex-shrink-0 ml-8 lg:ml-10 xl:ml-12">
           <a
             href="#contact"
-            className="group relative inline-flex items-center gap-2 px-5 py-2.5 bg-studio-gold text-studio-darker font-sans text-xs tracking-[0.14em] uppercase font-semibold rounded hover:bg-studio-goldLight transition-all duration-300 shadow-md shadow-studio-gold/20"
+            className="group relative inline-flex items-center gap-2 px-4 py-2 xl:px-5 xl:py-2.5 bg-studio-gold text-studio-darker font-sans text-[11px] xl:text-xs tracking-[0.14em] uppercase font-semibold rounded hover:bg-studio-goldLight transition-all duration-300 shadow-md shadow-studio-gold/20 whitespace-nowrap"
           >
             <span>Let's Discuss Your Project</span>
             <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
